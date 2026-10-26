@@ -18,3 +18,5 @@ spring:
               uri: http://localhost:8082
               predicates:
                 - Path=/api/productos/**
+jwt:
+  secret: mi-clave-super-secreta-para-el-gateway-de-inostratech-2026
